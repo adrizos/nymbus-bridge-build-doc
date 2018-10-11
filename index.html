@@ -6,30 +6,35 @@
     <title>Building The Bridge</title>
   </head>
   <body>
-    <title>Local Dev Build of Bridge App on your Mac</title>
-    <ul>
-      <li>Open a Terminal tab to the repo folder on your computer.<br>
-      You can do this by right clicking the folder in your Finder, and selecting
-      Services->Open new terminal tab at folder.</li>
-      <li>Check that you're on the 'devlop' branch<br>
-      <kbd>git branch</kbd><br>
-      if not<br>
-      <kbd>git checkout develop</kbd><br>
+    <div class="container">
+      <h3>Build/Run The Bridge App From Your Machine via Github Repo</h3>
+      <ul>
+        <li>Open a Terminal tab to the repo folder on your computer.<br>
+        You can do this by right clicking the folder in your Finder, and selecting
+        Services->Open new terminal tab at folder.
+        <img src="imgs/folder-terminal-ss.png" alt="ss">
       </li>
-      <li>Pull the latest changes from Github<br>
-      <kbd>git pull</kbd>
-      </li>
-      <li>
-        Now you're ready to build and run.
-        <ul>
-          <li>If there's been changes:<br>
-          <kbd>npm run build-semantic</kbd></li>
-          <li>Start Electron app:<br>
-            <kbd>npm run dev</kbd>
-          </li>
+        <li>Check that you're on the 'devlop' branch<br>
+        <kbd>git branch</kbd><br>
+        if not<br>
+        <kbd>git checkout develop</kbd><br>
+        </li>
+        <li>Pull the latest changes from Github<br>
+        <kbd>git pull</kbd>
+        </li>
+        <li>
+          Now you're ready to build and run.
+          <ul>
+            <li>If there's been changes:<br>
+            <kbd>npm run build-semantic</kbd></li>
+            <li>Start Electron app:<br>
+              <kbd>npm run dev</kbd>
+            </li>
 
-        </ul>
-      </li>
-    </ul>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
   </body>
 </html>
