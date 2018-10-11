@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Building The Bridge</title>
+  </head>
+  <body>
+    <title>Local Dev Build of Bridge App on your Mac</title>
+    <ul>
+      <li>Open a Terminal tab to the repo folder on your computer.<br>
+      You can do this by right clicking the folder in your Finder, and selecting
+      Services->Open new terminal tab at folder.</li>
+      <li>Check that you're on the 'devlop' branch:<br>
+        <code>git branch</code><br>
+      if not, type:<br>
+      <code>git checkout develop</code><br>
+      </li>
+      <li>Pull the latest changes from Github<br>
+        <code>git pull</code>
+      </li>
+      <li>
+        Now you're ready to build and run.
+        <ul>
+          <li>If there's been changes:<br>
+          <code>npm run build-semantic</code></li>
+          <li>Start Electron app:<br>
+            <code>npm run dev</code>
+          </li>
+
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
